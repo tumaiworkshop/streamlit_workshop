@@ -11,7 +11,6 @@ def run_app():
             st.write('hello')
 
 
-
 if __name__ == '__main__':
 
     # run the main app function
