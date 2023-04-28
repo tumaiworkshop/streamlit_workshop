@@ -5,9 +5,10 @@ import streamlit as st
 def run_app():
 
     # build expander and place the app inside
+    st.subheader('TUM.ai Makeathon')
     with st.expander('sdfjkdf', expanded=True):
-        st.write('TUM.ai Makeathon')
-
+        if st.button('click me'):
+            st.write('hello')
 
 
 
